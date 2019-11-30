@@ -38,7 +38,7 @@ dependencies {
 
 bootJar {
 	baseName = 'aws_project01' // repositorio no dockerhub
-	version = '0.1.0'
+	version = '0.2.0'
 }
 
 // tarefas de criação da imagem Docker.

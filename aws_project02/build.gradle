@@ -38,12 +38,15 @@ dependencies {
 	compile group: 'com.amazonaws', name: 'amazon-sqs-java-messaging-lib', version: '1.0.8'
 	compile group: 'org.springframework', name: 'spring-jms', version: '5.1.9.RELEASE'
 
+	compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.11.618'
+	compile group: 'com.github.derjust', name: 'spring-data-dynamodb', version: '5.1.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 bootJar {
 	baseName = 'aws_project02' // repositorio no dockerhub
-	version = '0.2.0'
+	version = '0.3.0'
 }
 
 // tarefas de criação da imagem Docker.
